@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class Portfolio extends Component {
     render() {
 
-        const array = ["plants", "cooking", "fitness", "employee", "budget", "password"];
+        const array = ["Plants", "Cooking", "Fitness", "Employee", "Budget", "Password"];
 
         const images = array.map(image => {
-            return <img key={image} src={require('../../assets/{image}.jpg')} className="img-responsive" />
+            return <img src=".{image}.jpg" className="img-responsive" alt="" />
         });
 
         return (

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+const foo = "email";
 
 class Contact extends Component {
     render() {
@@ -28,7 +29,7 @@ class Contact extends Component {
 									</li>
                             <li>
                                 <h3 className="icon solid fa-envelope"><span className="label">Email</span></h3>
-                                <a href="#">hello@untitled.tld</a>
+                                <button onClick={foo}>hello@untitled.tld</button>
                             </li>
                         </ul>
                     </div>
