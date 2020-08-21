@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./style.css";
+
 const foo = "email";
 
 class Contact extends Component {
