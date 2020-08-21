@@ -1,18 +1,24 @@
-import React from "react";
-import { Nav } from "react-bootstrap";
+import React, {Component} from "react";
+import { Navbar, Nav } from "react-bootstrap";
 import "./style.css";
 
-const Navbar = (props) => {
-    return (
+
+class NavTest extends Component {
+    render() {
+        return(
+        <React.Fragment>
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home"> Navbar </Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
         </Navbar>
+        </React.Fragment>
     )
+    }
+
 }
 
-export default Navbar
+export default NavTest
