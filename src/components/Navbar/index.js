@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 import { Navbar, Nav } from "react-bootstrap";
-// import "./style.css";
-
 
 class NavTest extends Component {
     render() {
