@@ -14,16 +14,41 @@ class Portfolio extends Component {
                 <h2>Recent Work</h2>
                 <div className="row">
                     <article className="col-6 col-12-xsmall work-item">
-                        <img id="plants" src={Plants} alt="" />
-                        <img id="cooking" src={Cooking} alt="" />
-                        <img id="fitness" src={Fitness} alt="" />
-                        <img id="employee" src={Employee} alt="" />
-                        <img id="budget" src={Budget} alt="" />
-                        <img id="password" src={Password} alt="" />
+                
+                        <a href="https://plantpartner.herokuapp.com/">
+                            <img id="plants" src={Plants} alt="plants" />
+                            <p className="img1">Plant Partner</p>
+                        </a>
+                      
+                        <a href="https://jaesenix.github.io/CuEARated-Cuisine/">
+                            <img id="cooking" src={Cooking} alt="birds eye view of people chopping vegetables and prepping to cook " />
+                            <p className="img2">CuEARated Cuisine</p>
+                        </a>
+                    
+                        <a href="https://my-fitnesstracker.herokuapp.com/?id=5f2d92ff7e52d50017b064f1">
+                            <img id="fitness" src={Fitness} alt="blurry shot of someone rattling battle ropes in gym" />
+                            <p className="img3">Fitness Tracker</p>
+                        </a>
+
+                        <a href="https://jaesenix.github.io/React-Employee-Directory/">
+                            <img id="employee" src={Employee} alt="back of empty office chairs lined up in a row" />
+                            <p className="img4">Employee Tracker</p>
+                        </a>
+
+                        <a href="https://on-off-budget-trackers.herokuapp.com/">
+                            <img id="budget" src={Budget} alt="birds eye view of papers showing budget lists" />
+                            <p className="img5">Budget Trackers</p>
+                        </a>
+
+                        <a href="https://jaesenix.github.io/Password-Generator/">
+                            <img id="password" src={Password} alt="laptop screen showing green and black code" />
+                            <p className="img6">Password Generator</p>
+                        </a>
+
                     </article>
                 </div>
             </div>
-        )        
+        )
     }
 }
 
