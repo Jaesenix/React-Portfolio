@@ -10,9 +10,9 @@ class NavTest extends Component {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">  </Navbar.Brand>
             <Nav className="mr-auto">
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
+                <a className="navAbout"><NavLink to="/about">About</NavLink></a>
+                <a className="navPortfolio"><NavLink to="/portfolio">Portfolio</NavLink></a>
+                <a className="navContact"><NavLink to="/contact">Contact</NavLink></a>
             </Nav>
         </Navbar>
         </React.Fragment>
