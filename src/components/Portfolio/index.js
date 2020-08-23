@@ -1,29 +1,30 @@
 import React, { Component } from "react";
+import Plants from "../../assets/images/plants.png";
+import Cooking from "../../assets/images/cooking.png";
+import Fitness from "../../assets/images/fitness.png";
+import Employee from "../../assets/images/employee.png";
+import Budget from "../../assets/images/budget.png";
+import Password from "../../assets/images/password.png";
 import "./style.css";
 
 class Portfolio extends Component {
     render() {
-
-        const array = ["Plants", "Cooking", "Fitness", "Employee", "Budget", "Password"];
-
-        const images = array.map(image => {
-            return <img src="../../assets/{image}.jpg" className="img-responsive" alt="" />
-        });
-
         return (
-            <section id="two">
+            <div className="portfolio">
                 <h2>Recent Work</h2>
                 <div className="row">
                     <article className="col-6 col-12-xsmall work-item">
-                        {images}
-                        {/* <img src="./assets/budget.jpg" className="image fit thumb" alt=""></img> */}
-                        <h3>Magna sed consequat tempus</h3>
-                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                        <img id="plants" src={Plants} alt="" />
+                        <img id="cooking" src={Cooking} alt="" />
+                        <img id="fitness" src={Fitness} alt="" />
+                        <img id="employee" src={Employee} alt="" />
+                        <img id="budget" src={Budget} alt="" />
+                        <img id="password" src={Password} alt="" />
                     </article>
                 </div>
-            </section>
-        );
+            </div>
+        )        
     }
 }
 
-export default Portfolio
+export default Portfolio;

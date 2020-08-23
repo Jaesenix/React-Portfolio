@@ -10,7 +10,8 @@ class About extends Component {
                 <header className="major">
                     <h2>About Me</h2>
                 </header>
-                <p className="about">Hi, my name is Janella. I am Software Developer in Texas. I am analytical, enjoy solving problems, coding, and working with data.  </p>
+                <p className="about">Hi, my name is Janella. I am a Software Developer in Texas. I am analytical, enjoy solving problems, coding, and working with data.  </p>
+                <p className="photoCred">Photo by Natanja Grun on Unsplash </p>
             </section>
             <div className="banner"></div>
             </div>
@@ -19,4 +20,4 @@ class About extends Component {
     }
 }
 
-export default About
+export default About;

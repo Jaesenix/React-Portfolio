@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 class NavTest extends Component {
@@ -8,9 +9,9 @@ class NavTest extends Component {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">  </Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
             </Nav>
         </Navbar>
         </React.Fragment>
@@ -19,4 +20,4 @@ class NavTest extends Component {
 
 }
 
-export default NavTest
+export default NavTest;
