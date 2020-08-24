@@ -16,7 +16,7 @@ SO THAT I can show some of my web development skills
 
 ## Deployed Application
 
-[React Portfolio](https://jaesenix.github.io/React-Employee-Directory/)
+[React Portfolio](https://jaesenix.github.io/React-Portfolio/)
 
 ![About Me](./src/assets/images/AboutMe.png)
 ![Portfolio](./src/assets/images/Portfolio.png)

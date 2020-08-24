@@ -8,7 +8,7 @@ class NavTest extends Component {
         return(
         <React.Fragment>
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">  </Navbar.Brand>
+            <Navbar.Brand href="/">  </Navbar.Brand>
             <Nav className="mr-auto">
                 <a className="navHome"><NavLink to="/">Home</NavLink></a>
                 <a className="navAbout"><NavLink to="/about">About</NavLink></a>
